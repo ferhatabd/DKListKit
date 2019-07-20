@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SessionKit/SessionKit.h"
 
 //! Project version number for DKListKit.
 FOUNDATION_EXPORT double DKListKitVersionNumber;

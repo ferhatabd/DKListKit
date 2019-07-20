@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import SessionKit
 import CoreData
+import SessionKit
 
 ///
 /// Public protocol that bridges objects

@@ -7,9 +7,8 @@
 //
 
 import WatchKit
-import SessionKit
 import CoreData
-
+import SessionKit
 
 public final class DKListCoreHandler: NSObject {
     
@@ -38,12 +37,13 @@ public final class DKListCoreHandler: NSObject {
     // -----------------------------------
     // Private / Internal properties
     // -----------------------------------
-    private class var bundleId: String {
-        #if os(iOS)
-        return "com.ferhatab.Mastermind.DKListKit"
-        #else
-        return "com.ferhatab.Mastermind.DKListKitWatch"
-        #endif
+    private class var bundleId: String { // TBA - fix the bundleid when cocoapods dsl 1.8.0 is released
+        return "org.cocoapods.DKListKit"
+//        #if os(iOS)
+//        return "com.ferhatab.Mastermind.DKListKit"
+//        #else
+//        return "com.ferhatab.Mastermind.DKListKitWatch"
+//        #endif
     }
     // -----------------------------------
     

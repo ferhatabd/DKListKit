@@ -9,6 +9,7 @@
 
 import Foundation
 import CoreData
+import SessionKit
 
 @objc(DKUserList)
 open class DKUserList: NSManagedObject {
