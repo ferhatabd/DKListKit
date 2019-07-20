@@ -23,9 +23,12 @@
 		50F5634322E3233400CEB3D6 /* DKListable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5633022E3233400CEB3D6 /* DKListable.swift */; };
 		50F5634422E3233400CEB3D6 /* ListData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50F5633122E3233400CEB3D6 /* ListData.xcdatamodeld */; };
 		50F5634522E3233400CEB3D6 /* DKListCoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5633422E3233400CEB3D6 /* DKListCoreHandler.swift */; };
+		7AFD590B3829A288397FD734 /* Pods_DKListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385DCEE1911B0965DBDE91E5 /* Pods_DKListKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E622A257E0683ACFEFA4BFF /* Pods-DKListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKListKit.debug.xcconfig"; path = "Target Support Files/Pods-DKListKit/Pods-DKListKit.debug.xcconfig"; sourceTree = "<group>"; };
+		385DCEE1911B0965DBDE91E5 /* Pods_DKListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F5631122E322F800CEB3D6 /* DKListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F5631D22E3233400CEB3D6 /* _DKListCoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _DKListCoreHandler.swift; sourceTree = "<group>"; };
 		50F5631E22E3233400CEB3D6 /* DKListKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKListKit.h; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		50F5633022E3233400CEB3D6 /* DKListable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKListable.swift; sourceTree = "<group>"; };
 		50F5633222E3233400CEB3D6 /* ListData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListData.xcdatamodel; sourceTree = "<group>"; };
 		50F5633422E3233400CEB3D6 /* DKListCoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKListCoreHandler.swift; sourceTree = "<group>"; };
+		C3EDB76632B002BF23270499 /* Pods-DKListKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKListKit.release.xcconfig"; path = "Target Support Files/Pods-DKListKit/Pods-DKListKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFD590B3829A288397FD734 /* Pods_DKListKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DDDC4B8134888D07A9AEFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E622A257E0683ACFEFA4BFF /* Pods-DKListKit.debug.xcconfig */,
+				C3EDB76632B002BF23270499 /* Pods-DKListKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		50F5630722E322F800CEB3D6 = {
 			isa = PBXGroup;
 			children = (
 				50F5631322E322F800CEB3D6 /* DKListKit */,
 				50F5631222E322F800CEB3D6 /* Products */,
+				10DDDC4B8134888D07A9AEFC /* Pods */,
+				9D36CF029922FC2A75F7A7B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +178,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		9D36CF029922FC2A75F7A7B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385DCEE1911B0965DBDE91E5 /* Pods_DKListKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -179,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50F5631922E322F800CEB3D6 /* Build configuration list for PBXNativeTarget "DKListKit" */;
 			buildPhases = (
+				D6170F36F28087157A127076 /* [CP] Check Pods Manifest.lock */,
 				50F5630C22E322F800CEB3D6 /* Headers */,
 				50F5630D22E322F800CEB3D6 /* Sources */,
 				50F5630E22E322F800CEB3D6 /* Frameworks */,
@@ -234,6 +260,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6170F36F28087157A127076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKListKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50F5630D22E322F800CEB3D6 /* Sources */ = {
@@ -385,6 +436,7 @@
 		};
 		50F5631A22E322F800CEB3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E622A257E0683ACFEFA4BFF /* Pods-DKListKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -412,6 +464,7 @@
 		};
 		50F5631B22E322F800CEB3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3EDB76632B002BF23270499 /* Pods-DKListKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
