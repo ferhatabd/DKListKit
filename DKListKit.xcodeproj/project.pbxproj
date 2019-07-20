@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50F5631622E322F800CEB3D6 /* DKListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5631422E322F800CEB3D6 /* DKListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F5633522E3233400CEB3D6 /* _DKListCoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5631D22E3233400CEB3D6 /* _DKListCoreHandler.swift */; };
+		50F5633622E3233400CEB3D6 /* DKListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5631E22E3233400CEB3D6 /* DKListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F5633722E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632122E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift */; };
+		50F5633822E3233400CEB3D6 /* DKDefaultList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632222E3233400CEB3D6 /* DKDefaultList+CoreDataClass.swift */; };
+		50F5633922E3233400CEB3D6 /* DKUserList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632422E3233400CEB3D6 /* DKUserList+CoreDataClass.swift */; };
+		50F5633A22E3233400CEB3D6 /* DKUserList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632522E3233400CEB3D6 /* DKUserList+CoreDataProperties.swift */; };
+		50F5633B22E3233400CEB3D6 /* DKUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632622E3233400CEB3D6 /* DKUserList.swift */; };
+		50F5633C22E3233400CEB3D6 /* DKListableSession+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632822E3233400CEB3D6 /* DKListableSession+CoreDataProperties.swift */; };
+		50F5633D22E3233400CEB3D6 /* DKListableSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632922E3233400CEB3D6 /* DKListableSession.swift */; };
+		50F5633E22E3233400CEB3D6 /* DKListableSession+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632A22E3233400CEB3D6 /* DKListableSession+CoreDataClass.swift */; };
+		50F5633F22E3233400CEB3D6 /* DKFavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632C22E3233400CEB3D6 /* DKFavList.swift */; };
+		50F5634022E3233400CEB3D6 /* DKFavList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632D22E3233400CEB3D6 /* DKFavList+CoreDataClass.swift */; };
+		50F5634122E3233400CEB3D6 /* DKFavList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632E22E3233400CEB3D6 /* DKFavList+CoreDataProperties.swift */; };
+		50F5634322E3233400CEB3D6 /* DKListable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5633022E3233400CEB3D6 /* DKListable.swift */; };
+		50F5634422E3233400CEB3D6 /* ListData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50F5633122E3233400CEB3D6 /* ListData.xcdatamodeld */; };
+		50F5634522E3233400CEB3D6 /* DKListCoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5633422E3233400CEB3D6 /* DKListCoreHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50F5631122E322F800CEB3D6 /* DKListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50F5631422E322F800CEB3D6 /* DKListKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKListKit.h; sourceTree = "<group>"; };
-		50F5631522E322F800CEB3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F5631D22E3233400CEB3D6 /* _DKListCoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _DKListCoreHandler.swift; sourceTree = "<group>"; };
+		50F5631E22E3233400CEB3D6 /* DKListKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKListKit.h; sourceTree = "<group>"; };
+		50F5632122E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKDefaultList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50F5632222E3233400CEB3D6 /* DKDefaultList+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKDefaultList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50F5632422E3233400CEB3D6 /* DKUserList+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKUserList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50F5632522E3233400CEB3D6 /* DKUserList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKUserList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50F5632622E3233400CEB3D6 /* DKUserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKUserList.swift; sourceTree = "<group>"; };
+		50F5632822E3233400CEB3D6 /* DKListableSession+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKListableSession+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50F5632922E3233400CEB3D6 /* DKListableSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKListableSession.swift; sourceTree = "<group>"; };
+		50F5632A22E3233400CEB3D6 /* DKListableSession+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKListableSession+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50F5632C22E3233400CEB3D6 /* DKFavList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFavList.swift; sourceTree = "<group>"; };
+		50F5632D22E3233400CEB3D6 /* DKFavList+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKFavList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50F5632E22E3233400CEB3D6 /* DKFavList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKFavList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50F5632F22E3233400CEB3D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F5633022E3233400CEB3D6 /* DKListable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKListable.swift; sourceTree = "<group>"; };
+		50F5633222E3233400CEB3D6 /* ListData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListData.xcdatamodel; sourceTree = "<group>"; };
+		50F5633422E3233400CEB3D6 /* DKListCoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKListCoreHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +76,89 @@
 		50F5631322E322F800CEB3D6 /* DKListKit */ = {
 			isa = PBXGroup;
 			children = (
-				50F5631422E322F800CEB3D6 /* DKListKit.h */,
-				50F5631522E322F800CEB3D6 /* Info.plist */,
+				50F5632F22E3233400CEB3D6 /* Info.plist */,
+				50F5631E22E3233400CEB3D6 /* DKListKit.h */,
+				50F5633122E3233400CEB3D6 /* ListData.xcdatamodeld */,
+				50F5634622E3234300CEB3D6 /* Protocols */,
+				50F5631C22E3233400CEB3D6 /* Extensions */,
+				50F5631F22E3233400CEB3D6 /* Models */,
+				50F5633322E3233400CEB3D6 /* Shared */,
 			);
 			path = DKListKit;
+			sourceTree = "<group>";
+		};
+		50F5631C22E3233400CEB3D6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50F5631D22E3233400CEB3D6 /* _DKListCoreHandler.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50F5631F22E3233400CEB3D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50F5632022E3233400CEB3D6 /* DKDefaultList */,
+				50F5632322E3233400CEB3D6 /* DKUserList */,
+				50F5632722E3233400CEB3D6 /* DKListableSession */,
+				50F5632B22E3233400CEB3D6 /* DKFavList */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50F5632022E3233400CEB3D6 /* DKDefaultList */ = {
+			isa = PBXGroup;
+			children = (
+				50F5632122E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift */,
+				50F5632222E3233400CEB3D6 /* DKDefaultList+CoreDataClass.swift */,
+			);
+			path = DKDefaultList;
+			sourceTree = "<group>";
+		};
+		50F5632322E3233400CEB3D6 /* DKUserList */ = {
+			isa = PBXGroup;
+			children = (
+				50F5632422E3233400CEB3D6 /* DKUserList+CoreDataClass.swift */,
+				50F5632522E3233400CEB3D6 /* DKUserList+CoreDataProperties.swift */,
+				50F5632622E3233400CEB3D6 /* DKUserList.swift */,
+			);
+			path = DKUserList;
+			sourceTree = "<group>";
+		};
+		50F5632722E3233400CEB3D6 /* DKListableSession */ = {
+			isa = PBXGroup;
+			children = (
+				50F5632822E3233400CEB3D6 /* DKListableSession+CoreDataProperties.swift */,
+				50F5632922E3233400CEB3D6 /* DKListableSession.swift */,
+				50F5632A22E3233400CEB3D6 /* DKListableSession+CoreDataClass.swift */,
+			);
+			path = DKListableSession;
+			sourceTree = "<group>";
+		};
+		50F5632B22E3233400CEB3D6 /* DKFavList */ = {
+			isa = PBXGroup;
+			children = (
+				50F5632C22E3233400CEB3D6 /* DKFavList.swift */,
+				50F5632D22E3233400CEB3D6 /* DKFavList+CoreDataClass.swift */,
+				50F5632E22E3233400CEB3D6 /* DKFavList+CoreDataProperties.swift */,
+			);
+			path = DKFavList;
+			sourceTree = "<group>";
+		};
+		50F5633322E3233400CEB3D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				50F5633422E3233400CEB3D6 /* DKListCoreHandler.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		50F5634622E3234300CEB3D6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				50F5633022E3233400CEB3D6 /* DKListable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +168,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F5631622E322F800CEB3D6 /* DKListKit.h in Headers */,
+				50F5633622E3233400CEB3D6 /* DKListKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +204,7 @@
 				TargetAttributes = {
 					50F5631022E322F800CEB3D6 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -130,6 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F5633E22E3233400CEB3D6 /* DKListableSession+CoreDataClass.swift in Sources */,
+				50F5633722E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift in Sources */,
+				50F5633822E3233400CEB3D6 /* DKDefaultList+CoreDataClass.swift in Sources */,
+				50F5633522E3233400CEB3D6 /* _DKListCoreHandler.swift in Sources */,
+				50F5633F22E3233400CEB3D6 /* DKFavList.swift in Sources */,
+				50F5634522E3233400CEB3D6 /* DKListCoreHandler.swift in Sources */,
+				50F5633B22E3233400CEB3D6 /* DKUserList.swift in Sources */,
+				50F5633922E3233400CEB3D6 /* DKUserList+CoreDataClass.swift in Sources */,
+				50F5634422E3233400CEB3D6 /* ListData.xcdatamodeld in Sources */,
+				50F5634322E3233400CEB3D6 /* DKListable.swift in Sources */,
+				50F5633D22E3233400CEB3D6 /* DKListableSession.swift in Sources */,
+				50F5634122E3233400CEB3D6 /* DKFavList+CoreDataProperties.swift in Sources */,
+				50F5633C22E3233400CEB3D6 /* DKListableSession+CoreDataProperties.swift in Sources */,
+				50F5633A22E3233400CEB3D6 /* DKUserList+CoreDataProperties.swift in Sources */,
+				50F5634022E3233400CEB3D6 /* DKFavList+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +386,7 @@
 		50F5631A22E322F800CEB3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferhatab.Mastermind.DKListKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +413,7 @@
 		50F5631B22E322F800CEB3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -330,6 +458,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50F5633122E3233400CEB3D6 /* ListData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50F5633222E3233400CEB3D6 /* ListData.xcdatamodel */,
+			);
+			currentVersion = 50F5633222E3233400CEB3D6 /* ListData.xcdatamodel */;
+			path = ListData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 50F5630822E322F800CEB3D6 /* Project object */;
 }

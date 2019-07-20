@@ -2,7 +2,7 @@
 //  DKListKit.h
 //  DKListKit
 //
-//  Created by Ferhat Abdullahoglu on 20.07.2019.
+//  Created by Ferhat Abdullahoglu on 8.05.2019.
 //  Copyright © 2019 Ferhat Abdullahoglu. All rights reserved.
 //
 
