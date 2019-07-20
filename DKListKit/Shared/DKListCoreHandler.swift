@@ -38,7 +38,7 @@ public final class DKListCoreHandler: NSObject {
     // Private / Internal properties
     // -----------------------------------
     private class var bundleId: String { // TBA - fix the bundleid when cocoapods dsl 1.8.0 is released
-        return "org.cocoapods.DKListKit"
+        return Bundle(for: DKListCoreHandler.self).bundleIdentifier!
 //        #if os(iOS)
 //        return "com.ferhatab.Mastermind.DKListKit"
 //        #else
