@@ -6,7 +6,9 @@
 //  Copyright © 2018 Ferhat Abdullahoglu. All rights reserved.
 //
 
+#if !os(iOS)
 import WatchKit
+#endif
 import CoreData
 import SessionKit
 
