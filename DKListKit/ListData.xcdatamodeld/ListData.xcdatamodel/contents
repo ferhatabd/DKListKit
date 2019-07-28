@@ -4,6 +4,9 @@
         <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
     </entity>
     <entity name="DKFavList" representedClassName="DKFavList" parentEntity="DKUserList" syncable="YES"/>
+    <entity name="DKGuidedList" representedClassName="DKGuidedList" parentEntity="DKUserList" syncable="YES">
+        <attribute name="durationPerDay" optional="YES" attributeType="Double" minValueString="0" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
     <entity name="DKListableSession" representedClassName="DKListableSession" syncable="YES">
         <attribute name="idx" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="isCompleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
@@ -21,6 +24,7 @@
     <elements>
         <element name="DKDefaultList" positionX="-45" positionY="36" width="128" height="60"/>
         <element name="DKFavList" positionX="-54" positionY="18" width="128" height="45"/>
+        <element name="DKGuidedList" positionX="-45" positionY="45" width="128" height="60"/>
         <element name="DKListableSession" positionX="-36" positionY="27" width="128" height="105"/>
         <element name="DKUserList" positionX="-63" positionY="-18" width="128" height="135"/>
     </elements>
