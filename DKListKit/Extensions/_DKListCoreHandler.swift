@@ -13,4 +13,5 @@ public extension DKListCoreHandler {
     var userListEntity: String { return NSStringFromClass(DKUserList.self)}
     var listabelSessionEntity: String {return NSStringFromClass(DKListableSession.self)}
     var defaultListEntity: String {return NSStringFromClass(DKDefaultList.self)}
+    var guidedListEntity: String {return NSStringFromClass(DKGuidedList.self)}
 }

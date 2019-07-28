@@ -132,15 +132,34 @@ public final class DKListCoreHandler: NSObject {
     }
     
     /**
+     Returns the related entity checking its type
+     */
+    public func entity<T>(for: T) -> String? {
+        if T.self is DKGuidedList.Type {
+            return guidedListEntity
+        } else if T.self is DKDefaultList.Type {
+            return defaultListEntity
+        } else if T.self is DKFavList.Type {
+            return favListEntity
+        } else if T.self is DKUserList.Type {
+            return userListEntity
+        } else {
+            return nil
+        }
+    }
+    
+    /**
      Main method to get any entity
      */
-    public func fetchEntities(for className: String, predicate: NSPredicate?, sortDescriptor: [NSSortDescriptor]?) -> NSArray? {
+    public func fetchEntities(for className: String, predicate: NSPredicate?, sortDescriptor: [NSSortDescriptor]?, includingSubEntities: Bool = true) -> NSArray? {
         
         guard let entityDescription = NSEntityDescription.entity(forEntityName: className, in: managedObjectContext) else {return nil}
         
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>()
         
         fetchRequest.entity = entityDescription
+        
+        fetchRequest.includesSubentities = includingSubEntities
         
         if predicate != nil {
             fetchRequest.predicate = predicate
