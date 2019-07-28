@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50ED367222EDC1D2009F3C10 /* DKGuidedList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED367022EDC1D2009F3C10 /* DKGuidedList+CoreDataClass.swift */; };
-		50ED367322EDC1D2009F3C10 /* DKGuidedList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED367122EDC1D2009F3C10 /* DKGuidedList+CoreDataProperties.swift */; };
 		50ED367522EDC250009F3C10 /* DKGuidedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED367422EDC250009F3C10 /* DKGuidedList.swift */; };
+		50ED367822EDCAFB009F3C10 /* DKGuidedList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED367622EDCAFB009F3C10 /* DKGuidedList+CoreDataClass.swift */; };
+		50ED367922EDCAFB009F3C10 /* DKGuidedList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED367722EDCAFB009F3C10 /* DKGuidedList+CoreDataProperties.swift */; };
 		50F5633522E3233400CEB3D6 /* _DKListCoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5631D22E3233400CEB3D6 /* _DKListCoreHandler.swift */; };
 		50F5633622E3233400CEB3D6 /* DKListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5631E22E3233400CEB3D6 /* DKListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50F5633722E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5632122E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift */; };
@@ -32,9 +32,9 @@
 /* Begin PBXFileReference section */
 		1E622A257E0683ACFEFA4BFF /* Pods-DKListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKListKit.debug.xcconfig"; path = "Target Support Files/Pods-DKListKit/Pods-DKListKit.debug.xcconfig"; sourceTree = "<group>"; };
 		385DCEE1911B0965DBDE91E5 /* Pods_DKListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ED367022EDC1D2009F3C10 /* DKGuidedList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DKGuidedList+CoreDataClass.swift"; sourceTree = "<group>"; };
-		50ED367122EDC1D2009F3C10 /* DKGuidedList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DKGuidedList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		50ED367422EDC250009F3C10 /* DKGuidedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKGuidedList.swift; sourceTree = "<group>"; };
+		50ED367622EDCAFB009F3C10 /* DKGuidedList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DKGuidedList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50ED367722EDCAFB009F3C10 /* DKGuidedList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DKGuidedList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		50F5631122E322F800CEB3D6 /* DKListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F5631D22E3233400CEB3D6 /* _DKListCoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _DKListCoreHandler.swift; sourceTree = "<group>"; };
 		50F5631E22E3233400CEB3D6 /* DKListKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKListKit.h; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		50ED366F22EDC1B3009F3C10 /* DKGuidedList */ = {
 			isa = PBXGroup;
 			children = (
-				50ED367022EDC1D2009F3C10 /* DKGuidedList+CoreDataClass.swift */,
-				50ED367122EDC1D2009F3C10 /* DKGuidedList+CoreDataProperties.swift */,
+				50ED367622EDCAFB009F3C10 /* DKGuidedList+CoreDataClass.swift */,
+				50ED367722EDCAFB009F3C10 /* DKGuidedList+CoreDataProperties.swift */,
 				50ED367422EDC250009F3C10 /* DKGuidedList.swift */,
 			);
 			path = DKGuidedList;
@@ -309,6 +309,7 @@
 			files = (
 				50F5633E22E3233400CEB3D6 /* DKListableSession+CoreDataClass.swift in Sources */,
 				50F5633722E3233400CEB3D6 /* DKDefaultList+CoreDataProperties.swift in Sources */,
+				50ED367922EDCAFB009F3C10 /* DKGuidedList+CoreDataProperties.swift in Sources */,
 				50F5633822E3233400CEB3D6 /* DKDefaultList+CoreDataClass.swift in Sources */,
 				50F5633522E3233400CEB3D6 /* _DKListCoreHandler.swift in Sources */,
 				50F5633F22E3233400CEB3D6 /* DKFavList.swift in Sources */,
@@ -316,13 +317,12 @@
 				50ED367522EDC250009F3C10 /* DKGuidedList.swift in Sources */,
 				50F5633B22E3233400CEB3D6 /* DKUserList.swift in Sources */,
 				50F5633922E3233400CEB3D6 /* DKUserList+CoreDataClass.swift in Sources */,
-				50ED367222EDC1D2009F3C10 /* DKGuidedList+CoreDataClass.swift in Sources */,
 				50F5634422E3233400CEB3D6 /* ListData.xcdatamodeld in Sources */,
 				50F5634322E3233400CEB3D6 /* DKListable.swift in Sources */,
+				50ED367822EDCAFB009F3C10 /* DKGuidedList+CoreDataClass.swift in Sources */,
 				50F5633D22E3233400CEB3D6 /* DKListableSession.swift in Sources */,
 				50F5634122E3233400CEB3D6 /* DKFavList+CoreDataProperties.swift in Sources */,
 				50F5633C22E3233400CEB3D6 /* DKListableSession+CoreDataProperties.swift in Sources */,
-				50ED367322EDC1D2009F3C10 /* DKGuidedList+CoreDataProperties.swift in Sources */,
 				50F5633A22E3233400CEB3D6 /* DKUserList+CoreDataProperties.swift in Sources */,
 				50F5634022E3233400CEB3D6 /* DKFavList+CoreDataClass.swift in Sources */,
 			);

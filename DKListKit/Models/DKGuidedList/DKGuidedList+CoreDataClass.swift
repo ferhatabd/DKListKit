@@ -9,20 +9,10 @@
 
 import Foundation
 import CoreData
-import SessionKit
 
 @objc(DKGuidedList)
-open class DKGuidedList: DKUserList {
-    
-    // ==================================================== //
-    // MARK: IBOutlets
-    // ==================================================== //
-    
-    
-    // ==================================================== //
-    // MARK: IBActions
-    // ==================================================== //
-    
+public class DKGuidedList: DKDefaultList {
+
     
     // ==================================================== //
     // MARK: Properties
@@ -49,17 +39,24 @@ open class DKGuidedList: DKUserList {
         super.init(entity: entity, insertInto: context)
     }
     
-    public init () {
+    ///
+    /// Initializes a guided list with its name & id
+    ///
+    /// - parameter name: Name of the list
+    /// - parameter id: ID of the list
+    ///
+    public convenience init(name: String, id: Int16 = 0) {
+        
         let _moc = DKListCoreHandler.default.managedObjectContext
         
         let _list = NSEntityDescription.entity(forEntityName: NSStringFromClass(DKGuidedList.self), in: _moc)!
         
-        super.init(entity: _list, insertInto: _moc)
+        self.init(entity: _list, insertInto: _moc)
         
-        self.name = "Guided"
-        
+        self.id = id
+        self.name = name
         self.isProgressive = true
-        
+        self.imageData = nil
     }
     
     // ==================================================== //
@@ -78,5 +75,4 @@ open class DKGuidedList: DKUserList {
     // -----------------------------------
     
     // -----------------------------------
-
 }

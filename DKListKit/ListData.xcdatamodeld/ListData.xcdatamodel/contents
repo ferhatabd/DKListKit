@@ -4,7 +4,7 @@
         <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
     </entity>
     <entity name="DKFavList" representedClassName="DKFavList" parentEntity="DKUserList" syncable="YES"/>
-    <entity name="DKGuidedList" representedClassName="DKGuidedList" parentEntity="DKUserList" syncable="YES">
+    <entity name="DKGuidedList" representedClassName="DKGuidedList" parentEntity="DKDefaultList" syncable="YES">
         <attribute name="durationPerDay" optional="YES" attributeType="Double" minValueString="0" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
     <entity name="DKListableSession" representedClassName="DKListableSession" syncable="YES">
