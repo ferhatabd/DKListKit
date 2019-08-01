@@ -240,6 +240,8 @@ public final class DKListCoreHandler: NSObject {
         
         _managedObjectContext.persistentStoreCoordinator = psc
         
+        _managedObjectContext.retainsRegisteredObjects = true 
+        
         return _managedObjectContext
     }
     
