@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="DKDefaultList" representedClassName="DKDefaultList" parentEntity="DKUserList" syncable="YES">
         <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
     </entity>
@@ -16,6 +16,7 @@
     <entity name="DKUserList" representedClassName="DKUserList" syncable="YES">
         <attribute name="expression" optional="YES" attributeType="String" minValueString="0" defaultValueString="&quot;&quot;" syncable="YES"/>
         <attribute name="id" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isActive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="isProgressive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" attributeType="String" minValueString="0" maxValueString="32" defaultValueString="&quot;&quot;" spotlightIndexingEnabled="YES" syncable="YES"/>
         <attribute name="numberOfStarts" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
@@ -26,6 +27,6 @@
         <element name="DKFavList" positionX="-54" positionY="18" width="128" height="45"/>
         <element name="DKGuidedList" positionX="-45" positionY="45" width="128" height="60"/>
         <element name="DKListableSession" positionX="-36" positionY="27" width="128" height="105"/>
-        <element name="DKUserList" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="DKUserList" positionX="-63" positionY="-18" width="128" height="150"/>
     </elements>
 </model>

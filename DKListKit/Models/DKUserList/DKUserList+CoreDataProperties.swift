@@ -17,6 +17,7 @@ extension DKUserList {
         return NSFetchRequest<DKUserList>(entityName: "DKUserList")
     }
 
+    @NSManaged public var isActive: Bool
     @NSManaged public var name: String
     @NSManaged public var expression: String?
     @NSManaged public var numberOfStarts: Int64
