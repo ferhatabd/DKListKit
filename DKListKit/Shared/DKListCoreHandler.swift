@@ -30,6 +30,7 @@ public final class DKListCoreHandler: NSObject {
     
     public var managedObjectContext: NSManagedObjectContext
     
+    @objc dynamic
     public var isValid = false
     
     public var dbUpdateDoneOnce = false
