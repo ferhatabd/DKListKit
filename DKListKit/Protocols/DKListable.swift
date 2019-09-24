@@ -21,6 +21,9 @@ public protocol DKListable  {
     ///
     func getListableObj() -> DKListableSession?
     
+    /// display name of the session
+    var listDisplayName: String? {get}
+    
     /// name of the session
     var name: String {get set}
     
