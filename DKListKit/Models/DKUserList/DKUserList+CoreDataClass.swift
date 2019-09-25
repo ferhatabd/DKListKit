@@ -70,7 +70,7 @@ open class DKUserList: NSManagedObject {
     /// Returns nil if not applicable
     public func indexOfCurrent() -> Int?  {
         guard isProgressive else {return nil}
-        return sessionArray?.firstIndex(where: {return !$0.isCompleted}) ?? nil
+        return sessionArray?.firstIndex(where: {return !$0.isCompleted}) ?? Int.max
     }
     
     /// Returns the current session for a progressive list
