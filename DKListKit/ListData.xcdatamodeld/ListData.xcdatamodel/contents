@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="DKDefaultList" representedClassName="DKDefaultList" parentEntity="DKUserList" syncable="YES">
-        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
     </entity>
     <entity name="DKFavList" representedClassName="DKFavList" parentEntity="DKUserList" syncable="YES"/>
     <entity name="DKGuidedList" representedClassName="DKGuidedList" parentEntity="DKDefaultList" syncable="YES">
-        <attribute name="durationPerDay" optional="YES" attributeType="Double" minValueString="0" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="durationPerDay" optional="YES" attributeType="Double" minValueString="0" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
     <entity name="DKListableSession" representedClassName="DKListableSession" syncable="YES">
-        <attribute name="idx" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="isCompleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" attributeType="String" minValueString="0" maxValueString="100" defaultValueString="&quot;&quot;" syncable="YES"/>
-        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DKUserList" inverseName="sessions" inverseEntity="DKUserList" syncable="YES"/>
+        <attribute name="idx" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isCompleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" minValueString="0" maxValueString="100" defaultValueString="&quot;&quot;"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DKUserList" inverseName="sessions" inverseEntity="DKUserList"/>
     </entity>
     <entity name="DKUserList" representedClassName="DKUserList" syncable="YES">
-        <attribute name="expression" optional="YES" attributeType="String" minValueString="0" defaultValueString="&quot;&quot;" syncable="YES"/>
-        <attribute name="id" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="isActive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="isProgressive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" attributeType="String" minValueString="0" maxValueString="32" defaultValueString="&quot;&quot;" spotlightIndexingEnabled="YES" syncable="YES"/>
-        <attribute name="numberOfStarts" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="sessions" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="DKListableSession" inverseName="parent" inverseEntity="DKListableSession" syncable="YES"/>
+        <attribute name="expression" optional="YES" attributeType="String" minValueString="0" defaultValueString="&quot;&quot;"/>
+        <attribute name="id" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isActive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isProgressive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" minValueString="0" maxValueString="32" defaultValueString="&quot;&quot;" spotlightIndexingEnabled="YES"/>
+        <attribute name="numberOfStarts" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="sessions" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="DKListableSession" inverseName="parent" inverseEntity="DKListableSession"/>
     </entity>
     <elements>
-        <element name="DKDefaultList" positionX="-45" positionY="36" width="128" height="60"/>
+        <element name="DKDefaultList" positionX="-45" positionY="36" width="128" height="58"/>
         <element name="DKFavList" positionX="-54" positionY="18" width="128" height="45"/>
         <element name="DKGuidedList" positionX="-45" positionY="45" width="128" height="60"/>
         <element name="DKListableSession" positionX="-36" positionY="27" width="128" height="105"/>
